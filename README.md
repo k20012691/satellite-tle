@@ -2,7 +2,7 @@
 
 This application visualizes the positions of man-made satellites orbiting Earth. It includes a map that displays satellite markers and a sidebar for satellite data exploration. Clicking on a satellite in the sidebar focuses the map on the selected satellite's position.
 
-![Dashboard Screenshot](image.png)
+![Dashboard Screenshot](./src/assets/image.png)
 
 ## Features
 - **Map Integration:** Displays satellite locations on an interactive 2D map using Maptiler SDK.
