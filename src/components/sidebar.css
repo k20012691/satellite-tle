@@ -1,0 +1,29 @@
+#sidebar-container {
+    margin: 2rem;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#satellite-data {
+    overflow-y: scroll;
+    flex-grow: 1;
+    height: 80%;
+    scrollbar-width: none;
+    margin-top: 2rem;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 0;
+    height: auto;
+}
+
+li { 
+    margin-top: 1rem;
+}
+
+li:hover {
+    background-color: #111;
+}
