@@ -14,7 +14,7 @@ function Map({}: Props) {
 
   const { setSatellites, setFlyToSatellite } = useSatelliteContext();
 
-  maptilersdk.config.apiKey = 'BrsYCaPwUgR1Xs8LiBuB';
+  maptilersdk.config.apiKey = import.meta.env.VITE_MAPTILER_API_KEY;
 
   useEffect(() => {
     if (!mapContainer.current) return;
